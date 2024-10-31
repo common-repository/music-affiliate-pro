@@ -1,0 +1,97 @@
+/* Settings Page */
+#icon-music-affiliate-pro { background: url(../images/icon32.png) 0 0 no-repeat;}
+
+#ma-settings td { vertical-align: top;}
+
+#ma-amazon-widget-settings aws-size option { padding: 0 0 0 10px;}
+
+#ma-itunes-widget-settings table { margin: 0;}
+#ma-itunes-widget-settings table td { padding: 5px 0; vertical-align: middle;}
+#ma-itunes-widget-settings table td h4 { margin-bottom: 0;}
+
+#ma-newsletter td { padding: 0 10px 3px 0; vertical-align: middle;}
+#ma-newsletter td button { margin: 5px 0 0 0;}
+#poststuff .inside p#ma-newsletter-intro { margin: 15px 0 6px 0; padding: 15px 0 0 0; border-top: 1px solid #DFDFDF;}
+
+#ma-search-settings li { margin: 0;}
+#ma-search-settings .config { margin: 0 0 10px 20px; padding: 5px 10px 8px; background: #dfdfdf; border-radius: 5px;}
+#ma-search-settings .config input { margin: 0 0 3px 0;}
+#ma-search-settings .config label { font-weight: bold;}
+
+.js #ma-search-settings .config { display: none;}
+
+/* < WP3.4 Backwards Compatability */
+#ma-settings #poststuff #post-body.columns-2 { margin-right: 300px;}
+#ma-settings #post-body-content { float: left; width: 100%;}
+#ma-settings #post-body.columns-2 #postbox-container-1 { float: right; margin-right: -300px; width: 280px;}
+#ma-settings #post-body.columns-2 #side-sortables { min-height: 250px;}
+
+/* Search Meta Box */
+.ma-ajax-feedback { visibility: visible; display: none; margin: 0 0 0 10px; vertical-align: middle;}
+
+.ma-result:hover,
+.ma-result:hover td { cursor: pointer; background: #ececec;}
+.ma-result td { padding: 7px; color: #636363; font-size: 12px; vertical-align: top; border-bottom: 1px solid #dfdfdf;}
+.ma-result td.artist,
+.ma-result td.type { width: 20%; vertical-align: middle;}
+.ma-result td.title { width: 55%; color: #333; font-size: 13px; border-left: 4px solid #f6f6f6;}
+.ma-result.has-artwork td.title { padding-left: 55px;}
+.ma-result.has-artwork td.title img { float: left; margin: 0 0 0 -51px; width: 36px; height: 36px;}
+.ma-result .row-actions { padding: 8px 0 0 0; font-size: 12px;}
+
+#ma-hide-results { display: none; cursor: pointer;}
+.ma-results thead:hover #ma-hide-results { display: inline;}
+#ma-search-form { margin: -6px -10px -8px -10px; padding: 6px 10px;
+	-webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;}
+#ma-search-form.active { background-color: #ffffe0;}
+#ma-search-message { display: none; margin: 6px -10px 0; padding: 8px 10px; background: #ffebe8;}
+#ma-search-message p { margin: 0;}
+#ma-search-results { margin: 0 -10px;}
+#ma-search-results table { margin: 6px 0 0 0; width: 100%; background: #fff;}
+#ma-search-results table th { padding: 8px; font-size: 13px; text-align: left; background: #d6edff; border: 1px solid #afcde5; border-width: 1px 0 4px;}
+
+
+/* Credit Box Styles */
+.bscard { float: left; clear: both; margin: 0 0 20px 0; width: 279px; border: 1px solid #dfdfdf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px #b3b3b3;
+	-mox-box-shadow: 0 1px #b3b3b3;
+	box-shadow: 0 1px #b3b3b3;}
+.bscard:hover { background: #f7f7f7;}
+
+#poststuff .bscard h3 {
+	float: left; clear: both; padding: 7px 10px; width: 259px;
+	color: #858585; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1;
+	background-color: #f1f1f1;
+	background-image: -ms-linear-gradient(top, #fff, #ececec);
+	background-image: -moz-linear-gradient(top, #fff, #ececec);
+	background-image: -o-linear-gradient(top, #fff, #ececec);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ececec));
+	background-image: -webkit-linear-gradient(top, #fff, #ececec);
+	background-image: linear-gradient(top, #fff, #ececec);
+	border-bottom: 1px solid #dfdfdf;
+	-webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px; border-top-right-radius: 5px;}
+#poststuff .bscard h3 a { color: #858585; text-decoration: none;}
+#poststuff .bscard h3 img { float: left; margin: 0 13px 0 0;}
+#poststuff .bscard h3 span { display: block; margin: 10px 0 0 0;}
+#poststuff .bscard h3 strong { display: block; padding: 3px; color: #454545; font-size: 16px; text-shadow: 1px 1px #fff;}
+#poststuff .bscard .inside { float: left; clear: both; margin: 0; padding: 15px 20px 0; width: 239px;}
+#poststuff .bscard .inside p { margin: 0 0 10px 0;}
+
+.bscard-form { margin: 0 0 15px 0;}
+#poststuff .bscard-form p.bscard-field { float: left; clear: both; margin: 0 0 5px 0;}
+.bscard-field .bscard-label { float: left; width: 50px; line-height: 23px;}
+.bscard-submit { margin: 0; padding: 0 0 0 50px;}
+
+.bscard-social { float: left; clear: both; list-style: none; padding: 0; margin: 0 0 15px 0;}
+.bscard-social li { float: left; margin: 0; width: 119px;}
+.bscard-social li a { padding: 1px 0 1px 20px; line-height: 16px; background-position: 0 50%; background-repeat: no-repeat;}
+.bscard-social-facebook { margin: 0;}
+.bscard-social-facebook a { background-image: url(../images/icons/facebook.png);}
+.bscard-social-twitter a { background-image: url(../images/icons/twitter.png);}
